@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int findGCD(vector<int>& nums) {
@@ -11,6 +13,6 @@ public:
                 smallest = nums[i];
             }
         }
-        return gcd(smallest , largest);
+        return __gcd(smallest , largest);
     }
 };
